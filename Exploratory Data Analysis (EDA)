@@ -271,11 +271,3 @@ rules[ (rules['lift'] >= 6) &
 
 
 # In[ ]:
-
-
-# The support value for the first rule is 0.003. This number is calculated by dividing the number of transactions containing ‘avocado,’ ‘spaghetti,’ and ‘milk’ by the total number of transactions.
-
-# The confidence level for the rule is 0.416, which shows that out of all the transactions that contain both ‘avocado’ and ‘spaghetti’, 41.6 percent contain ‘milk’ too.
-
-# The lift of 1.241 tells us that ‘milk’ is 1.241 times more likely to be bought by the customers who buy both ‘avocado’ and ‘spaghetti’ compared to the default likelihood sale of ‘milk.’
-
